@@ -1,0 +1,26 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px; /* This will round the corners of the table */
+    overflow: hidden; /* Ensures rounded corners are visible */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow around the table */
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tr:hover {
+    background-color: #f1f1f1; /* Adds hover effect */
+}
+* {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
